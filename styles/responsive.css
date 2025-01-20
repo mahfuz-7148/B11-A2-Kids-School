@@ -1,0 +1,8 @@
+@media screen and (max-width: 576px) {
+    .navLinks, .navLinks, button, h3 {
+        display: none;
+    }
+    .navbar img {
+        margin: 12px;
+    }
+}
