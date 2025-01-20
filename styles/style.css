@@ -8,10 +8,19 @@
 .btnNav {
     background-color: rgba(254, 163, 1, 1);
     color: rgba(255, 255, 255, 1);
-    border-radius: 8px;
+    border-radius: 12px;
     padding: 10px 50px;
     font-size: 1.1rem;
     font-weight: 600;
+    border: none;
+}
+.btnPrimary {
+    background-color: rgba(17, 17, 17, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    padding: 10px 40px;
+    font-size: 1.1rem;
+    font-weight: bold;
     border: none;
 }
 nav {
@@ -58,3 +67,33 @@ nav {
  .navbar img {
     margin-right: -250px;
  }
+.banner {
+    max-width: 1440px;
+    height: 330px;
+    margin: 0 auto;
+}
+.bannerContent {
+    margin-bottom: 50px;
+}
+.bannerContent h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(17, 17, 17, 1);
+    margin-bottom: 24px;
+}
+.bannerContent p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(17, 17, 17, 1);
+    margin-bottom: 24px;
+}
+.empower {
+    color: rgba(254, 163, 1, 1);
+}
+.vision {
+    color: rgba(1, 172, 253, 1);
+}
+.bannerImg {
+    width: 460px;
+    height: 575px;
+}
