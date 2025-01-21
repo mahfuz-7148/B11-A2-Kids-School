@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(247,247,247);
 }
@@ -36,7 +41,7 @@ body {
 }
 nav {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 30px auto;
     justify-content: space-between;
     align-items: center;
  }
@@ -135,13 +140,9 @@ nav {
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
     text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
-
-/* .standardCards {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-} */
 
 .standardCard {
     display: flex;
@@ -208,14 +209,36 @@ nav {
 .standardCard img {
     width: 100px;
     height: 100px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.standardCard2 img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.standardCard3 img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
 }
 
 .standardCard h2 {
     font-size: 1.5rem;
     font-weight: bold;
     color: rgba(32, 32, 32, 1);
-    margin-bottom: 10px;
+    
+}
+.standardCard2 h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(32, 32, 32, 1);
+ 
+}
+.standardCard3 h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(32, 32, 32, 1);
+ 
 }
 
 .standardCard p {
@@ -259,6 +282,8 @@ nav {
     display: flex;
     gap: 10px;
     justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 120px;
 }
 .sliderIcon span {
     display: flex;
@@ -276,7 +301,7 @@ nav {
 }
 .ourStories{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .ourStories h1 {
@@ -294,23 +319,23 @@ nav {
     grid-row: 1/3;
     grid-column: 1/3;
     width: 640px;
-    height: 630px;
+    height: 645px;
 }
 .storyCard2 {
     width: 290px;
-    height: 301.61px;
+    height: 310px;
 }
 .storyCard3 {
-    width: 290.69px;
-    height: 301.61px;
+    width: 290px;
+    height: 310px;
 }
 .storyCard4 {
-    width: 290.69px;
-    height: 301.61px;
+    width: 290px;
+    height: 310px;
 }
 .storyCard5 {
-    width: 290.69px;
-    height: 301.61px;
+    width: 290px;
+    height: 310px;
 }
 .storyImg {
     display: flex;
@@ -419,33 +444,53 @@ nav {
     margin-top: 90px;
     padding-bottom: 70px;
 }
-footer {
-  background: rgb(1, 172, 253);
-  padding: 120px 0;
-}
-.kidsContainer {
-    color: rgb(255, 255, 255);
-}
 .footer {
+    color: rgb(255, 255, 255);
+    background: rgb(1, 172, 253);
+    padding: 100px 0px;
+  }
+  .footer footer {
+    margin: auto 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .footer footer .about {
+    width: 40%;
+  }
+  .footer footer .aboutContainer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-}
-.kidsContent {
-    display: flex;
-}
-.about h3 {
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+  .footer footer .aboutContainer h1 {
     color: rgb(255, 255, 255);
-}
-.socialIcon {
-    color: rgb(255, 255, 255);;
-}
-ul a {
+    font-size: 2.6rem;
+    font-weight: 700;
+  }
+  .footerDesc p{
     color: rgb(255, 255, 255);
-}
-li {
-    list-style: none;
-}
-li a {
-    text-decoration: none;  
-}
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .footer footer .aboutContainer img {
+    width: 100px;
+    height: auto;
+  }
+  .footer footer h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  .footer footer .aboutLinks ul li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .footer footer .aboutIcons img {
+    margin-top: 20px;
+    margin-right: 15px;
+    height: auto;
+  }
