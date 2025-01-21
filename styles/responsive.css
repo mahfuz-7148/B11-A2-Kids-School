@@ -45,4 +45,7 @@
     .standardContainer{
         gap: 20px;
     }
+    .storiesGrid {
+        grid-template-columns: 1fr;
+    }
 }
