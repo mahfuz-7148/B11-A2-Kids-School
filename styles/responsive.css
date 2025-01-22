@@ -56,27 +56,32 @@
     .standardContainer{
         gap: 20px;
     }
+    .storyContent {
+        padding: 30px 10px 0px;
+    }
     .storyCard2 {
-        width: 260px;
-        height: 290px;
+        width: 100%;
+        height: 100%;
         margin-bottom: 20px;
     }
     .storyCard3 {
-        width: 260px;
-        height: 290px;
+        width: 100%;
+        height: 100%;
         margin-bottom: 20px;
     }
     .storyCard4 {
-        width: 260px;
-        height: 290px;
+        width: 100%;
+        height: 100%;
         margin-bottom: 20px;
     }
     .storyCard5 {
-        width: 260px;
-        height: 290px;
+        width: 100%;
+        height: 100%;
     }
     .storiesGrid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: auto 10px;
     }
     .footer {
         padding: 0px;
