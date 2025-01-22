@@ -86,22 +86,27 @@
         gap: 10px;
         margin: auto 10px;
     }
-    .footer {
-        padding: 0px;
-        margin: 0px;
+    .storyImg .dateBtn1 {
+        position: absolute;
+        bottom: -22px;
+        left: 38px;
+        padding: 5px 5px;
+        color: rgb(255, 255, 255);
+        font-size: 0.8rem;
+        border-radius: 47px;
+        background: rgb(60, 216, 232);
+        border: none;
     }
-    .footer footer {
-        margin: 0;
+    .footerWrapper{
         flex-direction: column;
+        padding-top: 55px;
+
     }
-    .aboutLinks {
-        margin-top: 30px;
+    
+    footer#footer{
+        padding: 0px;
+        height: 700px;
+        padding: 0 20px;
     }
-    .footer footer h2 {
-        margin-bottom: 32px;
-        margin-top: 30px;
-      }
-      .footer footer .aboutIcons img {
-        margin-bottom: 40px;
-      }
+   
 }
