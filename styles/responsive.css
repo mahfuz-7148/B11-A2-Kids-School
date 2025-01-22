@@ -5,6 +5,9 @@
     .navbar img {
         margin: 12px;
     }
+   nav {
+        border-bottom: 1px solid orange;
+    }
     .bannerContent {
         text-align: center;
     }
