@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-    .navLinks, .navbarBtn, .navbar > h3 {
+    .navLinks, .navbarBtn, .navbar > h3, .storyCard1 {
         display: none;
     }
     .navbar img {
@@ -12,14 +12,21 @@
         text-align: center;
         font-size: 2rem;
         font-weight: bold;
+        margin-top: -70px;
     }
     .bannerContent p {
         font-size: 0.8rem;
         font-weight: 500;
         text-align: center;
+        margin: 0 45px;
+        margin-bottom: 20px;
     }
     .banner {
         flex-direction: column-reverse;
+    }
+    .bannerImg img {
+        width: 82%;
+        margin-left: 40px;
     }
     .cards {
         flex-direction: column;
@@ -29,7 +36,11 @@
         display: block;
     }
     .standardContainer h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        margin-top: 60px;
+    }
+    .standardContainer p {
+        font-size: 1rem;
     }
     .standardCards {
        display: grid;
@@ -45,7 +56,44 @@
     .standardContainer{
         gap: 20px;
     }
-    .storiesGrid {
-        grid-template-columns: 1fr;
+    .storyCard2 {
+        width: 260px;
+        height: 290px;
+        margin-bottom: 20px;
     }
+    .storyCard3 {
+        width: 260px;
+        height: 290px;
+        margin-bottom: 20px;
+    }
+    .storyCard4 {
+        width: 260px;
+        height: 290px;
+        margin-bottom: 20px;
+    }
+    .storyCard5 {
+        width: 260px;
+        height: 290px;
+    }
+    .storiesGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer {
+        padding: 0px;
+        margin: 0px;
+    }
+    .footer footer {
+        margin: 0;
+        flex-direction: column;
+    }
+    .aboutLinks {
+        margin-top: 30px;
+    }
+    .footer footer h2 {
+        margin-bottom: 32px;
+        margin-top: 30px;
+      }
+      .footer footer .aboutIcons img {
+        margin-bottom: 40px;
+      }
 }
